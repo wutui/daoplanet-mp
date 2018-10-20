@@ -54,8 +54,14 @@
             }
           }
           await this[this.type](this.form)
-          this.$router.push({path: '/pages/index', reLaunch: true})
           if (this.type === 'login') {
+            this.$iBox.showToast('登录成功')
+            setTimeout(() => {
+              this.$router.push({path: '/pages/index', reLaunch: true})
+            }, 1000)
+          } else {
+            this.$iBox.showToast('注册成功')
+            this.type = 'login'
           }
         } catch (e) {
           console.error(e)

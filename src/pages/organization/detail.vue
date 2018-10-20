@@ -7,22 +7,22 @@
     </div>
 
     <div class="notice">
-      <img mode="aspectFill" src="https://img1.famulei.com/z/3000012/p/185/2905385395527_100x100.jpg" />
-      <div class="text">12月1日，我们要在上海举办大会，请各位芽民 积极帮助管委会拉赞助。</div>
+      <img mode="aspectFill" src="/static/images/kaiyuanshe.png" />
+      <div class="text">10月20号，我们要在深圳举办中国开源年会，欢迎各位参加。</div>
     </div>
 
     <div class="profile">
       <div class="item">
         <div class="key">身份</div>
-        <div class="val">居民</div>
+        <div class="val">开发者</div>
       </div>
       <div class="item">
-        <div class="key">我的芽</div>
+        <div class="key">我的Kcoin</div>
         <div class="val">16762</div>
       </div>
       <div class="item">
         <div class="key">头衔</div>
-        <div class="val">男爵</div>
+        <div class="val">开源大牛</div>
       </div>
     </div>
 
@@ -35,10 +35,10 @@
         </div>
         <div class="content">
           <div class="title">张三</div>
-          <div class="text">寻一个主持</div>
+          <div class="text">找一个项目做</div>
         </div>
         <div class="action">
-          <div class="badge ing">奖200芽</div>
+          <div class="badge ing">奖2000Kcoin</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>
@@ -51,7 +51,7 @@
           <div class="text">谁可以帮我认识马骏</div>
         </div>
         <div class="action">
-          <div class="badge ing">奖3000芽</div>
+          <div class="badge ing">奖3000Kcoin</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="content">
           <div class="title">杨大名</div>
-          <div class="text">找一个比我名气大的人</div>
+          <div class="text">寻找合作伙伴</div>
         </div>
         <div class="action">
           <div class="badge end">已完成</div>
@@ -102,7 +102,7 @@
           <div class="text">常年有效存货充足</div>
         </div>
         <div class="action">
-          <div class="badge have">1000芽</div>
+          <div class="badge have">1000Kcoin</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>
@@ -111,11 +111,11 @@
           <img mode="aspectFill" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540643975&di=7f5dced07c04402e36a6a70bb890f3f9&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.house365.com%2Fnewcms%2F2014%2F03%2F17%2F139501870153264bcdbc186.jpg" />
         </div>
         <div class="content">
-          <div class="title">区块链大会门票</div>
+          <div class="title">大会门票</div>
           <div class="text">数量有限，速度兑换</div>
         </div>
         <div class="action">
-          <div class="badge have">2000芽</div>
+          <div class="badge have">2000Kcoin</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>

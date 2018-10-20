@@ -12,7 +12,7 @@
             <div class="prop">
               <div class="key">任务悬赏</div>
               <div class="val">
-                <span class="badge ing">500芽</span>
+                <span class="badge ing">500Kcoin</span>
                 <span class="status">进行中</span>
               </div>
             </div>
@@ -51,7 +51,7 @@
         </div>
         <div class="content">
           <div class="acquisition">
-            获得<span class="badge ing">200芽</span>
+            获得<span class="badge ing">200Kcoin</span>
           </div>
           <div class="text">
             1967年美国道琼斯工业指数上涨19.0%，巴菲特合伙公司上涨35.9%，大幅度超过了道琼斯工业指数。根据巴菲特的描述，我们大约可以猜测出1967年美国是普涨的格局，或者是说傻子都挣钱的市场

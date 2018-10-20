@@ -20,32 +20,55 @@
     </div>
 
     <div class="cells box">
-      <div class="cell" v-for="i in 5" :key="i" @click="$router.push('/pages/organization/detail?id=' + i)">
+      <div class="cell" @click="$router.push('/pages/organization/detail?id=' + i)">
         <div class="image">
-          <img mode="scaleToFill" src="https://img1.famulei.com/z/3000012/p/185/2905385395527_100x100.jpg"/>
+          <img mode="scaleToFill" src="/static/images/kaiyuanshe.png"/>
         </div>
         <div class="content">
-          <div class="title">GBLS全球大会</div>
-          <div class="text">通知：请各位成员注意，明天下午撒打算打算的大声点</div>
+          <div class="title">开源社</div>
+          <div class="text">开源社是由中国支持开源的企业，社区及个人所组织的一个开源联盟，旨在推广开源。 各成员按照“共治、共识、贡献”的原则自发设立。</div>
+        </div>
+        <div class="action">
+          <div class="badge">99</div>
+          <i class="icon icon-arrow-right"></i>
+        </div>
+      </div>
+      <div class="cell" @click="$router.push('/pages/organization/detail?id=' + i)">
+        <div class="image">
+          <img mode="scaleToFill" src="/static/images/rrtoken.png"/>
+        </div>
+        <div class="content">
+          <div class="title">人人通证</div>
+          <div class="text">设计，发行，流通 你的专属通证 成就你的独特价值</div>
+        </div>
+        <div class="action">
+          <div class="badge">5</div>
+          <i class="icon icon-arrow-right"></i>
+        </div>
+      </div>
+      <div class="cell" @click="$router.push('/pages/organization/detail?id=' + i)">
+        <div class="image">
+          <img mode="scaleToFill" src="/static/images/dao.png"/>
+        </div>
+        <div class="content">
+          <div class="title">氘星</div>
+          <div class="text">新任务发布，完成可奖励100个芽</div>
         </div>
         <div class="action">
           <div class="badge">20</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>
-    </div>
-
-    <div class="cells box">
-      <div class="cell" v-for="i in 5" :key="i" @click="$router.push('/pages/organization/detail?id=' + i)">
+      <div class="cell" @click="$router.push('/pages/organization/detail?id=' + i)">
         <div class="image">
-          <img mode="aspectFill" src="https://img1.famulei.com/z/3000012/p/185/2905385395527_100x100.jpg"/>
+          <img mode="scaleToFill" src="/static/images/wutui.png"/>
         </div>
         <div class="content">
-          <div class="title">GBLS全球大会</div>
-          <div class="text">通知：请各位成员注意，明天下午撒打算打算的大声点</div>
+          <div class="title">无退社区</div>
+          <div class="text">第一个智能合约开发者社区</div>
         </div>
         <div class="action">
-          <div class="badge">20</div>
+          <div class="badge">10</div>
           <i class="icon icon-arrow-right"></i>
         </div>
       </div>

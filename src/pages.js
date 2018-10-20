@@ -2,8 +2,7 @@ module.exports = [
   {
     path: 'pages/index',
     config: {
-      navigationBarTitleText: '氘星',
-      enablePullDownRefresh: true
+      navigationBarTitleText: '氘星'
     }
   },
   {
