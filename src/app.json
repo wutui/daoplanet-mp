@@ -1,0 +1,10 @@
+{
+  "pages": [],
+  "window": {
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  }
+}
