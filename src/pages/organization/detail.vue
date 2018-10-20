@@ -207,12 +207,12 @@
     },
     async onLoad () {
       console.log(this.$router.currentRoute.query)
-      try {
-        const data = await this.$wx.setNavigationBarTitle({title: 1})
-        console.log(data)
-      } catch (e) {
-        console.error(e)
-      }
+      // try {
+      //   const data = await this.$wx.setNavigationBarTitle({title: 1})
+      //   console.log(data)
+      // } catch (e) {
+      //   console.error(e)
+      // }
     }
   }
 </script>

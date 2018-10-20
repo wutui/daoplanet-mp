@@ -6,14 +6,14 @@
         <div class="text">扫一扫</div>
       </div>
       <div class="item">
-        <i class="icon icon-search"></i>
+        <i class="icon icon-search" @click="$router.push('/pages/organization/search')"></i>
         <div class="text">搜索岛</div>
       </div>
-      <div class="item">
+      <div class="item" @click="$router.push('/pages/organization/create')">
         <i class="icon icon-plus"></i>
         <div class="text">创造岛</div>
       </div>
-      <div class="item">
+      <div class="item" @click="$router.push('/pages/web?url=https://wutui.pro')">
         <i class="icon icon-froum"></i>
         <div class="text">无退社区</div>
       </div>

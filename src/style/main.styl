@@ -33,6 +33,47 @@ ellipsis()
   border 1px solid rgba(255, 255, 255, 0.14)
   display flex
   flex-direction column
+  &.form
+    font-size 14px
+    &.view
+      .cell
+        .key
+          color rgba(255, 255, 255, 0.48)
+        .val
+          color #fff
+          margin-left 15px
+          &.row
+            display flex
+            flex-direction column
+            > div + div
+              margin-top 8px
+    .cell
+      &.align-top
+        align-items flex-start
+      .desc
+        font-size 13px
+        color rgba(255, 255, 255, 0.3)
+      > div
+        display flex
+      .key
+        flex-direction column
+        align-items flex-end
+        .filed
+          text-align right
+          line-height 1.6
+        width 90px
+        div + div
+          margin-top 3px
+      .val
+        &.row
+          display flex
+          flex-direction column
+          > div + div
+            margin-top 3px
+        flex 1
+        margin-left 30px
+        input
+          width 100%
   + .cells
     margin-top 12px
   .cell
@@ -90,24 +131,24 @@ ellipsis()
     .action
       display flex
       align-items center
-      .badge
-        padding 1px 7px
-        border-radius 3px
-        background-color rgba(255, 255, 255, 0.09)
-        color rgba(255, 255, 255, 0.82)
-        font-size 10px
-        text-align center
-        &.ing
-          background-color #3BB728
-        &.have
-          background-color #089DD9
-        &.null
-        &.end
-          background-color #515151
       .icon
         color #9c9c9c
         margin-left 5px
-
+.badge
+  padding 1px 7px
+  border-radius 3px
+  background-color rgba(255, 255, 255, 0.09)
+  color rgba(255, 255, 255, 0.82)
+  font-size 10px
+  text-align center
+  &.ing
+    background-color #3BB728
+  &.have
+    background-color #089DD9
+  &.null
+  &.end
+    background-color #515151
+    
 button
   &:active
     opacity .8

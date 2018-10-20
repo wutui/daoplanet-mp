@@ -16,9 +16,33 @@ module.exports = [
     path: 'pages/counter'
   },
   {
+    path: 'pages/web',
+    config: {
+      navigationBarTitleText: '无退社区'
+    }
+  },
+  {
     path: 'pages/organization/detail',
     config: {
       navigationBarTitleText: '岛屿详情'
+    }
+  },
+  {
+    path: 'pages/organization/search',
+    config: {
+      navigationBarTitleText: '搜索岛'
+    }
+  },
+  {
+    path: 'pages/organization/plan',
+    config: {
+      navigationBarTitleText: '经济发展方案'
+    }
+  },
+  {
+    path: 'pages/organization/create',
+    config: {
+      navigationBarTitleText: '创建岛屿'
     }
   },
   {

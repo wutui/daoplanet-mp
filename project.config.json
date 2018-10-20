@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -41,7 +41,19 @@
 				{
 					"id": -1,
 					"name": "organization/task",
-					"pathName": "pages/organization/task"
+					"pathName": "pages/organization/task",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "create",
+					"pathName": "pages/organization/create",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "plan",
+					"pathName": "pages/organization/plan"
 				}
 			]
 		}
